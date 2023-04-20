@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon - details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon"  type="image/png" href="https://www.pokemongobrasil.com/wp-content/uploads/2015/09/cropped-favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="headerContainer">
+        <a href="../../index.html">
+            <img src="https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png" alt="pokemon">
+        </a>
+        <div class="searchContainer">
+            <input type="checkbox" id="check"></input>
+            <label for="check" class="checkButton">&#128269;</label>
+            <input class="searchInput" id="searchInput" type="search" placeholder="pesquisar...">
+        </div>
+    </header>
+    <main id="mainContainer">
+        <aside class="infosContainer">
+            <h1 id="infoName"></h1>
+            <img id="infoImg" class="infoImg"
+                src="" alt="Pokemon">
+            <span class="infoExperienceContainer">
+                <h3 id="infoExperience" class="infoExperience"></h3>
+            </span>
+            <div class="infoTypesContainer">
+                <h3 id="labelTypes" class="labelTypes"></h3>
+                <div id="infoTypes" class="infoTypes"></div>
+            </div>
+            <!-- <table>
+            </table> -->
+        </aside>
+        <div class="abilityContainer">
+            <h2 class="abilityLabel">Abilities:</h2>
+            <ul id="abilitiesList" class="abilitiesList"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

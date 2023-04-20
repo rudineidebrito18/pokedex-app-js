@@ -1,0 +1,103 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+body {
+    margin: 0;
+}
+.headerContainer {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.headerContainer img{
+    max-width: 100px;
+    margin-left: 10px;
+}
+.headerContainer .searchContainer {
+    margin-right: 10px;
+}
+.headerContainer .searchContainer > input{
+    width: 200px;
+    background-color: #000000;
+    color: #fff;
+}
+.headerContainer .searchContainer .checkButton {
+    font-size: 25px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    display: none;
+    border: solid 2px #757575;
+    background-color: #222;
+    border-radius: 5px;
+}
+.headerContainer .searchContainer .checkButton:active {
+    background-color: #000;
+}
+.headerContainer .searchContainer #check {
+    display: none;
+}
+.infosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #494949;
+    border-radius: 10px;
+    margin:0 10px;
+    background-color: #fddb7e;
+}
+.infosContainer .infoImg {
+    max-width: 100px;
+}
+.infosContainer .infoExperienceContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #bef062;
+}
+.infosContainer .infoTypesContainer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #57e9b1;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infosContainer .infoTypesContainer .labelTypes {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.abilityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8a9f1;
+    border-radius: 10px;
+    border: solid 2px #494949;
+    margin: 0 10px;
+}
+.abilityContainer .abilitiesList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.abilityContainer .abilitiesList .infoAbility {
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0 5px;
+    background-color: #bef062;
+    border-radius: 8px;
+}
