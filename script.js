@@ -25,7 +25,6 @@ function append(parent, el) {
 }
 
 function createCard(data) {
-    console.log(data)
     const li = createNode('li', 'itemContainer')
     const a = createNode('a')
     const img = createNode('img')
